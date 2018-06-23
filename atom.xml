@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>渐行渐远渐无书</title>
+  
+  <subtitle>生活点滴，读书笔记，学习记录</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://cloud2mine.com/"/>
+  <updated>2018-06-22T16:40:31.229Z</updated>
+  <id>http://cloud2mine.com/</id>
+  
+  <author>
+    <name>行路者</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://cloud2mine.com/2018/06/23/configs/sorts/"/>
+    <id>http://cloud2mine.com/2018/06/23/configs/sorts/</id>
+    <published>2018-06-22T16:40:31.224Z</published>
+    <updated>2018-06-22T16:40:31.229Z</updated>
+    
+    <content type="html"><![CDATA[{"":["mac-idea-快捷键.md","第一篇文章.md","mac-idea-快捷键"],"__positions":{"mac-idea-快捷键":3,"mac-idea-快捷键.md":1,"第一篇文章.md":2},"__raw_positions":{"mac-idea-快捷键":3,"mac-idea-快捷键.md":1,"第一篇文章.md":2}}]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        {&quot;&quot;:[&quot;mac-idea-快捷键.md&quot;,&quot;第一篇文章.md&quot;,&quot;mac-idea-快捷键&quot;],&quot;__positions&quot;:{&quot;mac-idea-快捷键&quot;:3,&quot;mac-idea-快捷键.md&quot;:1,&quot;第一篇文章.md&quot;:2},&quot;__raw_positions&quot;:{&quot;mac-
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mac Idea 快捷键</title>
+    <link href="http://cloud2mine.com/2018/06/22/Mac-Idea-%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://cloud2mine.com/2018/06/22/Mac-Idea-快捷键/</id>
+    <published>2018-06-22T09:36:56.000Z</published>
+    <updated>2018-06-22T17:35:37.160Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Mac-上键位说明"><a href="#Mac-上键位说明" class="headerlink" title="Mac 上键位说明"></a>Mac 上键位说明</h2><ul><li>⌘ Command </li><li>⇧ Shift</li><li>⌥ Option</li><li>⌃ Control</li><li>↩︎ 回车键</li><li>⌫ 向前删除键</li><li>Fn + ⌫  delete</li><li>↑ 上箭头</li><li>↓ 下箭头</li><li>← 左箭头</li><li>→ 右箭头</li><li>⇞ Page Up（Fn + ↑）</li><li>⇟ Page Down （Fn + ↓）</li><li>Home Fn + ←</li><li>End Fn + →</li><li>⇥ 右制表符（Tab键）</li><li>⇤ 左制表符（Shift+Tab）</li><li>⎋ Escape (Esc)<h2 id="一、Editing（编辑）"><a href="#一、Editing（编辑）" class="headerlink" title="一、Editing（编辑）"></a>一、Editing（编辑）</h2></li><li>Control + /  基本代码补全（通过keymap 修改）</li><li>Command + Shift + 回车 自动结束代码，并在行末加分号</li><li>Control + J 查看方法文档</li><li>Command + N、Control + 回车 快速生产代码（getter、setter等）</li><li>Control + O 重写父类方法</li><li>Control + I 实现接口方法</li><li>Option + Command + T 包围代码（用if…else，try…catch，for等）</li><li>Command + / 单行注释</li><li>Command + Option + / 多行注释</li><li>Option + ↑ 连续选中代码块</li><li>Option + ↓ 减少选中的代码块</li><li>Option + 回车 显示小灯泡</li><li>Command + Option + L 格式化代码</li><li>Control + Option + O 优化import</li><li>Command + 删除键 整行删除</li><li>Command + D 复制当前行</li><li>Command + Shirt + U 大小写转换</li><li>Option + Fn + ⌫ 删除到单词末尾</li><li>Option + ⌫ 删除到单词开头</li><li>Command + “+” 或 Command + “-“ 展开或折叠代码块</li></ul><hr><p>未完待续</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Mac-上键位说明&quot;&gt;&lt;a href=&quot;#Mac-上键位说明&quot; class=&quot;headerlink&quot; title=&quot;Mac 上键位说明&quot;&gt;&lt;/a&gt;Mac 上键位说明&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;⌘ Command &lt;/li&gt;
+&lt;li&gt;⇧ Shift&lt;/li&gt;
+&lt;li
+      
+    
+    </summary>
+    
+      <category term="Mac Idea" scheme="http://cloud2mine.com/categories/Mac-Idea/"/>
+    
+    
+      <category term="Mac Idea" scheme="http://cloud2mine.com/tags/Mac-Idea/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇文章</title>
+    <link href="http://cloud2mine.com/2018/06/18/first/"/>
+    <id>http://cloud2mine.com/2018/06/18/first/</id>
+    <published>2018-06-17T16:59:24.000Z</published>
+    <updated>2018-06-18T02:34:18.352Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="测试页"><a href="#测试页" class="headerlink" title="测试页"></a>测试页</h1><h2 id="这是我的第一个测试博客页"><a href="#这是我的第一个测试博客页" class="headerlink" title="这是我的第一个测试博客页"></a>这是我的第一个测试博客页</h2><ol><li>相对来说，这里完成的只是简单的一点点</li><li>你的的赛很哦豁</li><li>苏垦我<a id="more"></a></li></ol><h2 id="代码的引用"><a href="#代码的引用" class="headerlink" title="代码的引用"></a>代码的引用</h2><ul><li>在这里我讲演示一个代码的使用<br>  <code>在这里我就是一个代码块</code></li><li>怎么样？</li></ul><h2 id="测试一下Markdown的语法"><a href="#测试一下Markdown的语法" class="headerlink" title="测试一下Markdown的语法"></a>测试一下Markdown的语法</h2><blockquote><p>引用一下百度吧 <a href="http://www.baidu.com" target="_blank" rel="noopener">www.baidu.com</a>    </p></blockquote><ul><li><strong>粗体的使用</strong></li><li><em>斜体的使用</em></li><li><strong><em>粗斜体的使用</em></strong></li><li><del>删除线的使用</del> </li><li>==背景色==</li><li><code>标记一下</code><ul><li>代码块   </li></ul></li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">server:</span><br><span class="line">  port: <span class="number">8888</span></span><br><span class="line">eureka:</span><br><span class="line">  client:</span><br><span class="line">    service-url:</span><br><span class="line">      defaultZone: http:<span class="comment">//localhost:8001/eureka/</span></span><br><span class="line">spring:</span><br><span class="line">  application:</span><br><span class="line">    name: cloud4-zuul</span><br><span class="line">zuul:</span><br><span class="line">  routes:</span><br><span class="line">    api-a:</span><br><span class="line">      path: /api-a<span class="comment">/**</span></span><br><span class="line"><span class="comment">      serviceId: consumer-ribbon</span></span><br><span class="line"><span class="comment">    api-b:</span></span><br><span class="line"><span class="comment">      path: /api-b/**</span></span><br><span class="line"><span class="comment">      serviceId: consumer-feign</span></span><br><span class="line"><span class="comment">  host:</span></span><br><span class="line"><span class="comment">    connect-timeout-millis: 10000</span></span><br><span class="line"><span class="comment">    socket-timeout-millis: 60000</span></span><br><span class="line"><span class="comment">hystrix:</span></span><br><span class="line"><span class="comment">  command:</span></span><br><span class="line"><span class="comment">    default:</span></span><br><span class="line"><span class="comment">      execution:</span></span><br><span class="line"><span class="comment">        isolation:</span></span><br><span class="line"><span class="comment">          thread:</span></span><br><span class="line"><span class="comment">            timeoutInMilliseconds: 60000</span></span><br><span class="line"><span class="comment">ribbon:</span></span><br><span class="line"><span class="comment">  ReadTimeout: 60000</span></span><br><span class="line"><span class="comment">  ConnectTimeout: 60000</span></span><br></pre></td></tr></table></figure><ul><li>测试一个表格   </li></ul><table><thead><tr><th>header 1</th><th>header 2</th></tr></thead><tbody><tr><td>row 1 col 1</td><td>row 1 col 2</td></tr><tr><td>row 2 col 1</td><td>row 2 col 2</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;测试页&quot;&gt;&lt;a href=&quot;#测试页&quot; class=&quot;headerlink&quot; title=&quot;测试页&quot;&gt;&lt;/a&gt;测试页&lt;/h1&gt;&lt;h2 id=&quot;这是我的第一个测试博客页&quot;&gt;&lt;a href=&quot;#这是我的第一个测试博客页&quot; class=&quot;headerlink&quot; title=&quot;这是我的第一个测试博客页&quot;&gt;&lt;/a&gt;这是我的第一个测试博客页&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;相对来说，这里完成的只是简单的一点点&lt;/li&gt;
+&lt;li&gt;你的的赛很哦豁&lt;/li&gt;
+&lt;li&gt;苏垦我&lt;/li&gt;&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="aa" scheme="http://cloud2mine.com/categories/aa/"/>
+    
+    
+      <category term="test" scheme="http://cloud2mine.com/tags/test/"/>
+    
+  </entry>
+  
+</feed>
