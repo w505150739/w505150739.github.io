@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cloud2mine.com/"/>
-  <updated>2018-06-22T16:40:31.229Z</updated>
+  <updated>2018-06-29T06:50:37.172Z</updated>
   <id>http://cloud2mine.com/</id>
   
   <author>
@@ -17,19 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://cloud2mine.com/2018/06/23/configs/sorts/"/>
-    <id>http://cloud2mine.com/2018/06/23/configs/sorts/</id>
-    <published>2018-06-22T16:40:31.224Z</published>
-    <updated>2018-06-22T16:40:31.229Z</updated>
+    <title>ss-manager搭建记录</title>
+    <link href="http://cloud2mine.com/2018/06/29/ss-manager%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/"/>
+    <id>http://cloud2mine.com/2018/06/29/ss-manager搭建记录/</id>
+    <published>2018-06-29T06:19:40.000Z</published>
+    <updated>2018-06-29T06:50:37.172Z</updated>
     
-    <content type="html"><![CDATA[{"":["mac-idea-快捷键.md","第一篇文章.md","mac-idea-快捷键"],"__positions":{"mac-idea-快捷键":3,"mac-idea-快捷键.md":1,"第一篇文章.md":2},"__raw_positions":{"mac-idea-快捷键":3,"mac-idea-快捷键.md":1,"第一篇文章.md":2}}]]></content>
+    <content type="html"><![CDATA[<h1 id="centos-7-安装-shadowsocks-libev"><a href="#centos-7-安装-shadowsocks-libev" class="headerlink" title="centos 7 安装 shadowsocks-libev"></a>centos 7 安装 shadowsocks-libev</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">yum install epel-release -y</span><br><span class="line">yum install gcc gettext autoconf libtool automake make pcre-devel asciidoc xmlto c-ares-devel libev-devel libsodium-devel mbedtls-devel -y</span><br><span class="line">wget https://github.com/shadowsocks/shadowsocks-libev/releases/download/v3.1.2/shadowsocks-libev-3.1.2.tar.gz</span><br><span class="line">tar xf shadowsocks-libev-3.1.2.tar.gz</span><br><span class="line">cd shadowsocks-libev-3.1.2</span><br><span class="line">./configure</span><br><span class="line">make</span><br><span class="line">make install</span><br></pre></td></tr></table></figure><h2 id="编译过程中可能会报错"><a href="#编译过程中可能会报错" class="headerlink" title="编译过程中可能会报错"></a>编译过程中可能会报错</h2><ul><li><p>configure:error: mbed TLS libraries not found。<br><strong> <a href="https://tls.mbed.org/" target="_blank" rel="noopener">https://tls.mbed.org/</a> 下载 </strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf  mbedtls-2.5.1-apache.tgz</span><br><span class="line">cdmbedtls-2.5.1</span><br><span class="line">make</span><br><span class="line"># make check</span><br><span class="line">makeinstall</span><br></pre></td></tr></table></figure></li><li><p>configure: error: The Sodium crypto library libraries not found.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.13.tar.gz</span><br><span class="line">./configure</span><br><span class="line">make &amp;&amp; make check</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure></li></ul><h2 id="SS服务端的话，有多钟启动方法，这里我把两种启动方法都列出来："><a href="#SS服务端的话，有多钟启动方法，这里我把两种启动方法都列出来：" class="headerlink" title="SS服务端的话，有多钟启动方法，这里我把两种启动方法都列出来："></a>SS服务端的话，有多钟启动方法，这里我把两种启动方法都列出来：</h2><ol><li>通过命令行的方法，直接加参数运行：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ss-server -s 0.0.0.0 -p 21313 -k lala.im-TEST -m chacha20-ietf-poly1305 -u</span><br></pre></td></tr></table></figure></li></ol><p>注：-p是SS连接端口，-k是SS连接密码，-m是SS加密方式，-u是开启UDP转发。连接这台服务器的话，本地客户端的IP地址就是这台机器的公网IP。</p><ol><li>通过加载配置文件来运行：</li></ol><h2 id="参考地址"><a href="#参考地址" class="headerlink" title="参考地址"></a>参考地址</h2><ol><li><strong> <a href="https://lala.im/2132.html" target="_blank" rel="noopener">https://lala.im/2132.html</a> </strong></li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        {&quot;&quot;:[&quot;mac-idea-快捷键.md&quot;,&quot;第一篇文章.md&quot;,&quot;mac-idea-快捷键&quot;],&quot;__positions&quot;:{&quot;mac-idea-快捷键&quot;:3,&quot;mac-idea-快捷键.md&quot;:1,&quot;第一篇文章.md&quot;:2},&quot;__raw_positions&quot;:{&quot;mac-
+        &lt;h1 id=&quot;centos-7-安装-shadowsocks-libev&quot;&gt;&lt;a href=&quot;#centos-7-安装-shadowsocks-libev&quot; class=&quot;headerlink&quot; title=&quot;centos 7 安装 shadowsocks-libev&quot;&gt;&lt;/a
+      
+    
+    </summary>
+    
+      <category term="科学上网" scheme="http://cloud2mine.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+    
+      <category term="科学上网" scheme="http://cloud2mine.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://cloud2mine.com/2018/06/23/configs/sorts/"/>
+    <id>http://cloud2mine.com/2018/06/23/configs/sorts/</id>
+    <published>2018-06-22T16:40:31.224Z</published>
+    <updated>2018-06-29T06:19:49.137Z</updated>
+    
+    <content type="html"><![CDATA[{"":["ss-manager搭建记录.md","mac-idea-快捷键.md","第一篇文章.md","ss-manager搭建记录","mac-idea-快捷键"],"__positions":{"ss-manager搭建记录.md":1,"mac-idea-快捷键":5,"mac-idea-快捷键.md":2,"第一篇文章.md":3,"ss-manager搭建记录":4},"__raw_positions":{"ss-manager搭建记录.md":1,"mac-idea-快捷键":5,"mac-idea-快捷键.md":2,"第一篇文章.md":3,"ss-manager搭建记录":4}}]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        {&quot;&quot;:[&quot;ss-manager搭建记录.md&quot;,&quot;mac-idea-快捷键.md&quot;,&quot;第一篇文章.md&quot;,&quot;ss-manager搭建记录&quot;,&quot;mac-idea-快捷键&quot;],&quot;__positions&quot;:{&quot;ss-manager搭建记录.md&quot;:1,&quot;mac-idea-快捷键&quot;:5
       
     
     </summary>
