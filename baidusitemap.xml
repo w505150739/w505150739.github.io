@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://cloud2mine.com/2018/06/29/ss-manager%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2018-07-02T16:31:49.630Z</lastmod>
+    <lastmod>2018-07-05T03:02:50.295Z</lastmod>
     <data>
         <display>
         <title>ss-manager搭建记录</title>
@@ -18,6 +18,21 @@
              
               <breadCrumb title="科学上网" url="http://cloud2mine.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cloud2mine.com/2018/07/05/configs/sorts/</loc>
+    <lastmod>2018-07-05T02:59:38.436Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2018-07-05T02:59:38.428Z</pubTime>
+        
+         
+           
         </display>
     </data>
     </url>
